@@ -10,10 +10,10 @@ spec:
   # cerficate is for below domain name 
   tls: 
     - hosts:
-        - react-k8s-demo.anajak-khmer.site
+        - react-k8s-demo.bluenodeops.online
       secretName: nginx-k8s-demo-secret 
   rules:
-  - host: react-k8s-demo.anajak-khmer.site
+  - host: react-k8s-demo.bluenodeops.online
     http:
       paths:
       - pathType: Prefix
