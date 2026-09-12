@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: 69966/earthdx:78
+        image: nginx:latest 
+        #image: 69966/earthdx:78
         ports:
         - containerPort: 80
 
